@@ -323,7 +323,9 @@
         });
         
         function useProxy(url) {
-            return "http://rewardads.vpsgh.it:3262/proxy?url=" + url;
+            const urlFixed = 'https://corsproxy.io/?' + encodeURIComponent(url);
+
+            return urlFixed;
         }
     </script>
 
