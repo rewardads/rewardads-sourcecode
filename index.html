@@ -418,7 +418,7 @@
                     for(const key in rewardData) {
                         if(rewardData.hasOwnProperty(key)) {
                             if(key.includes("name")) {
-                                if(rewardData[key].includes(serverName)) {
+                                if(rewardData[key].includes(serverName.toLocaleLowerCase())) {
                                     code = ID;
                                 }
                             }
