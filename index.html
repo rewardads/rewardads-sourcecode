@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6393839379082196"
      crossorigin="anonymous"></script>
-    <title>Fetch Website Content</title>
+    <title></title>
 
     <style>
         body {
@@ -331,7 +331,7 @@
     <script>
         const serverName = "Horagon";
         let playerName = null;
-
+        
         async function setCoins(player, coins) {
             let config = await fetchDatabase('coins');
             const code = await getCode();
@@ -532,6 +532,7 @@
             });
 
             document.getElementById("servername").innerHTML = serverName;
+            document.title = serverName + " | RewardADs";
         });
         
         function useProxy(url) {
