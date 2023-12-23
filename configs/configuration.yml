@@ -1,0 +1,9 @@
+code: XXXXXXXXXXX
+
+announce-messages: "Message 1" && "(button) &aClick here!"
+announce-delay: 300
+annoucer-enabled: true
+
+earn-per-ad: 100
+
+rewards-commands: "rewards" && "buy" && "givemewhatideserve"

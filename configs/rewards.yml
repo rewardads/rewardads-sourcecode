@@ -1,0 +1,11 @@
+Cat:
+  cost: 1000
+  material: DIAMOND_BLOCK
+  lore: "&bBuy me!" && "&aCost > %money%/1000"
+  commands: "lp user %playername% permission set cat.*" && "say &6%playeruuid% have bought Cat!"
+  
+Dog:
+  cost: 12000
+  material: GOLD_BLOCK
+  lore: "&4Buy me!" && "&7Cost > %money%/12000"
+  commands: "pay %playername% 100"
