@@ -1,6 +1,0 @@
-name: RewardADs
-version: 1.0
-main: it.nathanub.RewardADs.Main
-commands:
-  rewardads:
-    description: Spam message
